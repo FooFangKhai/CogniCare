@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CogniCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreenProgress"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".TestAssessment2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+
+        <service
+            android:name=".GettingDeviceTokenService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <activity
+            android:name=".FitnessActivityDetails"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FitnessTipsActivity" />
+        </activity>
+        <activity
+            android:name=".LegUpActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".WindMillActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".TwistActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".RotationActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".SitupActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CrunchesActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PlankActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PausejiPostActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PlayjiPostActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CowPostActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CobblerPostActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ChildPostActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ChairPoseActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".BridgePoseActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".BowPoseActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".InstructionActivity2"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".LegUpActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".WindMillActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".TwistActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".RotationActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".SitupActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CrunchesActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PlankActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PausejiPostActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".PlayjiPostActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CowPostActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".CobblerPostActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ChildPostActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ChairPoseActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".BridgePoseActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".BowPoseActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".FitnessTipsActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FitnessActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityAfterAge60"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FitnessActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityBeforeAge60"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FitnessActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".FitnessActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewsActivity" />
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NutritionAdviceHomePage" />
+        </activity>
+        <activity
+            android:name=".NutritionAdviceHomePage"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".RecipeDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NutritionAdviceHomePage" />
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".NutritionActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NutritionAdviceHomePage" />
+        </activity>
+        <activity
+            android:name=".BrainGamesActivity"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".TestAssessment"
+            android:exported="false"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DeleteProfileGoogleActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePageGoogle" />
+        </activity>
+        <activity
+            android:name=".HomePageGoogle"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".DeleteProfileActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfileActivity" />
+        </activity>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfileActivity" />
+        </activity>
+        <activity
+            android:name=".UpdateEmailActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfileActivity" />
+        </activity>
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfileActivity" />
+        </activity>
+        <activity
+            android:name=".UploadProfilePicActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserProfileActivity" />
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".UserProfileActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomePage" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PhoneNumberSignInActivity"
+            android:screenOrientation="locked">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="standard"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

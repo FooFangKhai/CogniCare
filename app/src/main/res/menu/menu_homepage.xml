@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="View Profile"
+        android:id="@+id/menu_view_profile_hp"/>
+
+    <item android:title="Settings"
+        android:id="@+id/menu_settings_hp"/>
+
+    <item android:title="Share"
+        android:id="@+id/menu_share_hp"/>
+
+    <item android:title="Terms &amp; Privacy"
+        android:id="@+id/menu_terms_hp"/>
+
+    <item android:title="Log Out"
+        android:id="@+id/menu_logout_hp"/>
+
+</menu>

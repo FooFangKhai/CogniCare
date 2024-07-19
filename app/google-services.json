@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277811036159",
+    "firebase_url": "https://cognicare-b655f-default-rtdb.firebaseio.com",
+    "project_id": "cognicare-b655f",
+    "storage_bucket": "cognicare-b655f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277811036159:android:649b0ab20417187822b1ca",
+        "android_client_info": {
+          "package_name": "com.example.cognicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277811036159-ltnp1umu9e0s2gmqcs42ghg2ir3k0qd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cognicare",
+            "certificate_hash": "2be9d6b71aaa989178c4fd5fc947e5b5534ba43a"
+          }
+        },
+        {
+          "client_id": "277811036159-kejbdn5ddiagctb0ljug6l1dmch8su0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSIrs1H8nYfMvNDUbVMB1c6A9jeGzfNq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277811036159-kejbdn5ddiagctb0ljug6l1dmch8su0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

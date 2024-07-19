@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Delete Profile"
+        android:id="@+id/menu_delete_profile_google"/>
+
+    <item android:title="Settings"
+        android:id="@+id/menu_settings_google"/>
+
+    <item android:title="Share"
+        android:id="@+id/menu_share_google"/>
+
+    <item android:title="Terms &amp; Privacy"
+        android:id="@+id/menu_terms_google"/>
+
+    <item android:title="Log Out"
+        android:id="@+id/menu_logout_google"/>
+
+</menu>

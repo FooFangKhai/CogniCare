@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:paddingTop="90dp"
+        android:id="@+id/first_linear"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_11"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_12"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_13"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_14"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:id="@+id/second_linear"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_21"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_22"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_23"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>
